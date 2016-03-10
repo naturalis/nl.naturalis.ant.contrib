@@ -87,7 +87,6 @@ public class GetBuildNumberTask extends Task {
 	{
 		String file = "/.naturalis.buildno";
 		String path = System.getProperty("user.home") + file;
-		System.out.println(path);
 		return new File(path);
 	}
 
